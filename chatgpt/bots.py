@@ -1,7 +1,7 @@
 from django.conf import settings
 from openai import OpenAI
 
-CLIENT = OpenAI(api_key=settings.OPEN_API_KEY)
+CLIENT = OpenAI(api_key=settings.OPENAI_API_KEY)
 
 
 def translate_bot(message):
